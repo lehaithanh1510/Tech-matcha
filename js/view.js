@@ -6,11 +6,17 @@ view.setActiveScreen = (page) => {
         case "mainPage":
             document.querySelector("#page-top").innerHTML = component.mainPage
             document.querySelector("#start_quiz_orientation_question").addEventListener("click", () => {
-                console.log('haha')
                 view.setActiveScreen('quizOrientationPage')
             })
             document.querySelector("#start_quiz_school_question").addEventListener("click", () => {
                 view.setActiveScreen('quizSchoolPage')
+            })
+            document.querySelector(".viewmore-job").addEventListener("click", () => {
+                view.setActiveScreen('newspaperPage')
+
+            })
+            document.querySelector(".viewmore-tech-news").addEventListener("click", () => {
+                view.setActiveScreen('newspaperPage')
             })
             break;
         case "quizOrientationPage":
@@ -96,6 +102,9 @@ view.setActiveScreen = (page) => {
                 })
             })
             break;
+        case "newspaperPage":
+            document.querySelector("#page-top").innerHTML = component.newspaperPage
+            break;
 
     }
 
@@ -146,7 +155,7 @@ view.addQuiz = (quiz, j) => {
 view.showQuizChonTruong = () => {
     let j = 0
     for (quiz of model.quizChonTruong) {
-        view.addQuiz(quiz,j)
+        view.addQuiz(quiz, j)
         j++
     }
 }

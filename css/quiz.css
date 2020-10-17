@@ -101,3 +101,9 @@
 .article2-pic-4 {
     background-image: url(https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/10/16/photo1602822707091-16028227074311586660225.jpg?fbclid=IwAR1UuqHHJkFy2vU15sYjz5JxN4DnTuBXgCKuPE3arUq9ho2Bt-JREb_xGEA);
 }
+.newspaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+}

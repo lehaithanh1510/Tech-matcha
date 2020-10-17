@@ -43,9 +43,7 @@ component.mainPage = `
                 <div class="col-lg-8 text-center">
                     <h2 class="text-white mt-0">Quiz hỏi và thi</h2>
                     <hr class="divider light my-4" />
-                    <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and
-                        running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                        strings attached!</p>
+                    <p class="text-white-50 mb-4">Hãy cùng xem bạn có thực sự phù hợp để theo đuổi ngành công nghệ thông tin </p>
                     <button class="btn btn-light btn-xl js-scroll-trigger" id ="start_quiz_orientation_question">Bắt đầu làm quiz!</button>
                     </div>
             </div>
@@ -81,6 +79,7 @@ component.mainPage = `
                         <h3 class="h4 mb-2">[DAC TUYỂN DỤNG] DATA ENGINEER, JAVA DEVELOPER NĂM 2020</h3>
                     </div>
                 </div>
+                <button class="btn btn-xl viewmore viewmore-job ">Xem Thêm</button>
             </div>
         </div>
     </section>
@@ -88,9 +87,7 @@ component.mainPage = `
     <section class="page-section bg-dark text-white" id="orientation">
         <div class="container text-center">
             <h2 class="mb-4">Hướng nghiệp!</h2>
-            <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and
-                running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                strings attached!</p>
+            <p class="text-white-50 mb-4">Cùng Tech Matcha khám phá ngôi trường Đại học phù hợp với bản thân bạn</p>
             <button class="btn btn-light btn-xl" id ="start_quiz_school_question" >Bắt đầu làm quiz!</button>
         </div>
     </section>
@@ -124,6 +121,8 @@ component.mainPage = `
                         <h3 class="h4 mb-2">SIÊU NHÀ MÁY TESLA Ở ĐỨC BỊ CẮT NƯỚC DO QUÊN THANH TOÁN HÓA ĐƠN</h3>
                     </div>
                 </div>
+                <button class="btn btn-xl viewmore viewmore-tech-news">Xem Thêm</button>
+
             </div>
         </div>
     </section>
@@ -176,7 +175,7 @@ component.quizSchoolPage = `
     </div>
 </div>
         <div class="heading_quiz">
-            Quiz học và thi
+            Quiz chọn trường
         </div>
         <form id="quiz_form">
             <div class="main_quiz">
@@ -184,4 +183,8 @@ component.quizSchoolPage = `
             <button class="submit-quiz">Submit</button>
         </form>
     </div>
-    `
+`
+component.newspaperPage = `
+<div class="newspaper"><h1>COMING SOON ...</h1></div>
+
+`
