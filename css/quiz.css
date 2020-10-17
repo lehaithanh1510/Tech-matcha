@@ -1,0 +1,103 @@
+* {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.heading_quiz {
+    width : 100%;
+    height: 10vh;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.main_quiz {
+    display: flex;
+    flex-direction: column;
+    width : 80%;
+    height: auto;
+    padding :10% 10% 2% 10%;
+
+    /* justify-content: center ; */
+    /* background: url(../assets/img/bg-masthead.jpg); */
+    /* opacity: 50%; */
+}
+.question {
+    color: black 
+}
+.submit-quiz{
+    padding : 5px;
+    background-color: #66FF66;
+    color : white
+}
+#quiz_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width :50%;
+    border : 1px solid black;
+
+}
+.notice_results {
+    width : 35%;
+    justify-content: center;    
+    position: fixed;
+    top: 20vh;
+    height: 30vh;
+    border : 1px solid black;
+    display: none;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 10px 5px 5px red;
+    flex-direction: column;
+}
+#go-to-main-page {
+    padding : 10px;
+    background-color:#dbdbdb;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+#go-to-school-quiz {
+    padding : 10px;
+    background-color:#66FF66;
+}
+.article-pic {
+    width : 250px;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;  
+
+}
+.article-pic-1{
+    background-image: url(https://nextsol.vn/assets/img/logoviettel.png?fbclid=IwAR0UdBpc3Db9rBqMalyAy5ET1uL8XxTUuKnkluNhyYAypLSA2dX68rMNlk4);
+}
+.article-pic-2 {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C510BAQG0QVMlGsvr9A/company-logo_200_200/0?e=2159024400&v=beta&t=Q_j0kDN47E30xU2PbGopYiB-X1dORdOK4Q3_HSOQnts&fbclid=IwAR1ygzCbgDrsXg4YdspR7pABJFTWcffvYeXm2OAtrTPQNJAdlY4oqz4hhNU);
+
+}
+.article-pic-3 {
+    background-image: url(https://jobseekers.vn/wp-content/uploads/2017/03/Gameloft-logo.png?fbclid=IwAR0Xzk3pZvFvbM7B3iwdYGzVzstIk3QJV9dkJvw6xw1sqdeIMSK8QJUTEEA);   
+}
+.article-pic-4 {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D0BAQEkxLzkEdE3IQ/company-logo_200_200/0?e=2159024400&v=beta&t=drcFOnLTS1Ez27bXFnxHeHep4hxD3eSIKwL_UszchJs&fbclid=IwAR0Rbhl7p-0Hi95RuS42oblY50DppOTBF1XqWyPb9SRfPfWMYlbW-rqmOZU);   
+}
+.article2-pic-1 {
+    background-image: url(https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/10/16/photo1602841326627-1602841326784957744416.jpg?fbclid=IwAR3Pxo_0MoUYwat208f5YIO8XckE90acjFscY2T7Mbes_e8TkINtU4-SG_c);
+}
+
+.article2-pic-2 {
+    background-image: url(https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/10/11/photo1602398307993-1602398308563458686605.jpg?fbclid=IwAR1XnCQ3TnAnbWyNxux_1DpCUeslovOkyzExdV7olLrfGP1Fr2iQAMeKNNs);
+}
+
+.article2-pic-3 {
+    background-image: url(https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/10/16/photo1602840007219-16028400074161039600758.jpg?fbclid=IwAR2CaqQbJYaDBP6f53gvrRclVX6xGQh2CMt152tEpOZ9GmFWuKXWj0D-QmA);
+
+}
+.article2-pic-4 {
+    background-image: url(https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/10/16/photo1602822707091-16028227074311586660225.jpg?fbclid=IwAR1UuqHHJkFy2vU15sYjz5JxN4DnTuBXgCKuPE3arUq9ho2Bt-JREb_xGEA);
+}
