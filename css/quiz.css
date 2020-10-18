@@ -107,3 +107,18 @@
     align-items: center;
     height : 100vh;
 }
+ .article-pic-khmt {
+    background-image: url(https://i.postimg.cc/85gjycSR/Thi-t-k-kh-ng-t-n-4.png);
+}
+ .article-pic-ktmt {
+    background-image: url(https://i.postimg.cc/43DBB6yW/Thi-t-k-kh-ng-t-n-5.png);
+}
+.article-pic-httt {
+    background-image: url(https://i.postimg.cc/Hn2zYF2N/Thi-t-k-kh-ng-t-n-6.png);
+}
+.article-pic-ttmmt {
+    background-image: url(https://i.postimg.cc/BZcMB10C/Thi-t-k-kh-ng-t-n-7.png);
+} 
+.cursor-pointer {
+    cursor: pointer;
+}

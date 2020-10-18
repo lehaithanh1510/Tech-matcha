@@ -13,10 +13,6 @@ view.setActiveScreen = (page) => {
             })
             document.querySelector(".viewmore-job").addEventListener("click", () => {
                 view.setActiveScreen('newspaperPage')
-
-            })
-            document.querySelector(".viewmore-tech-news").addEventListener("click", () => {
-                view.setActiveScreen('newspaperPage')
             })
             break;
         case "quizOrientationPage":
@@ -104,6 +100,9 @@ view.setActiveScreen = (page) => {
             break;
         case "newspaperPage":
             document.querySelector("#page-top").innerHTML = component.newspaperPage
+            break;
+        case "khmtPage" :
+            document.querySelector("#page-top").innerHTML = component.khmtPage
             break;
 
     }

@@ -36,6 +36,40 @@ component.mainPage = `
             </div>
         </div>
     </header>
+    <!-- About IT-->
+    <section class="page-section" id="services">
+        <div class="container">
+            <h2 class="text-center mt-0">Kiến thức cơ bản</h2>
+            <hr class="divider my-4" />
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5 cursor-pointer">
+                    <div class = "article-pic-khmt article-pic"> </div>
+                    <h3 class="h4 mb-2">[KHOA HỌC MÁY TÍNH]</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5 cursor-pointer">
+                    <div class = "article-pic-ktmt article-pic"> </div>
+                        <h3 class="h4 mb-2">[KỸ THUẬT MÁY TÍNH]</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5 cursor-pointer">
+                    <div class = "article-pic-httt article-pic"> </div>
+                        <h3 class="h4 mb-2">[HỆ THỐNG THÔNG TIN]</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5 cursor-pointer">
+                    <div class = "article-pic-ttmmt article-pic"> </div>
+                        <h3 class="h4 mb-2">[TRUYỀN THÔNG VÀ MẠNG MÁY TÍNH]</h3>
+                    </div>
+                </div>
+                <button class="btn btn-xl viewmore viewmore-job ">Xem Thêm</button>
+            </div>
+        </div>
+    </section>
     <!-- Quiz study-->
     <section class="page-section bg-primary" id="quizstudy">
         <div class="container">
@@ -186,5 +220,36 @@ component.quizSchoolPage = `
 `
 component.newspaperPage = `
 <div class="newspaper"><h1>COMING SOON ...</h1></div>
-
 `
+component.khmtPage = `
+<div> 
+<h2> Khoa học máy tính </h2>
+- 1. Mục tiêu đào tạo
+<br>
+Đào tạo chuyên về lĩnh vực Thị giác máy tính và Đa phương tiện. Trong đó:
+<br>
+- Cung cấp các khối kiến thức nền tảng và chuyên sâu về Đồ họa máy tính (Computer Graphics), Thị giác máy tính (Computer Vision), xử lý, khai thác dữ liệu đa phương tiện và công nghệ đa phương tiện.
+<br>
+- Xây dựng kĩ năng cần thiết trong phân tích, thiết kế, triển khai xây dựng các hệ thống, ứng dụng liên quan đến dữ liệu đa phương tiện, công nghệ đa phương tiện, đồ họa và thị giác máy tính.
+<br>
+- Phát triển kĩ năng tự học, tự nghiên cứu, tư duy phản biện, các kĩ năng mềm, khả năng sáng tạo về công nghệ và nghệ thuật.
+<br>
+2. Kiến thức
+- Xử lý ảnh và video.
+<br>
+- Đồ họa máy tính.
+<br>
+- Thị giác máy tính.
+<br>
+- Xử lý dữ liệu đa phương tiện.
+- Công nghệ đa phương tiện.
+- Máy học và nhận dạng.
+- Thực tại ảo, thực tại tăng cường.
+- Tổ chức và truy vấn thông tin đa phương tiện.
+3. Kỹ năng
+- Kỹ năng phân tích, thiết kế các hệ thống về thị giác máy tính và đa phương tiện.
+- Kỹ năng lập trình, áp dụng công nghệ và phát triển ứng dụng về thị giác máy tính và đa phương tiện.
+- Kỹ năng giải quyết vấn đề.
+4. Cơ hội việc làm
+Sinh viên có thể làm việc tại các vị trí và trong các lĩnh vực sau: lập trình đồ họa game; chuyên viên phát triển các công nghệ về xử lý hình ảnh, âm thanh, video, thực tại ảo, thực tại ảo tăng cường, tương tác người-máy; cán bộ nghiên cứu khoa học ở các trường, viện, trung tâm, công ty công nghệ; cán bộ giảng dạy
+</div>`
